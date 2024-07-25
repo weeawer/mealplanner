@@ -8,10 +8,7 @@ namespace api.Dtos.Day
 {
     public class DayDto
     {
-        public int Id {get; set;}
-        public DateTime DayDate {get; set;} = DateTime.Now; 
-        public List<MealDto> Meals {get; set;}
-        
-        
+        public int Id {get; set;} 
+        public List<MealDto> Meals {get; set;}   
     }
 }

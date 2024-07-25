@@ -8,9 +8,8 @@ namespace api.Models
 {
     public class AppUser: IdentityUser
     {
-        public int AppUserId {get; set;}
-        public string AppUserName {get;set;} = string.Empty;
-        public List<Choise> Choises {get; set;} = new List<Choise>();
-        
+        public string Id {get; set;}
+        public List<ChoiseMeal> ChoiseMeals { get; set; } = new List<ChoiseMeal>();
+
     }
 }

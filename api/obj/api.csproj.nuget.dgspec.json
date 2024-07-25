@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\9mice\\Desktop\\vtme\\api\\api.csproj": {}
+    "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\9mice\\Desktop\\vtme\\api\\api.csproj": {
+    "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\9mice\\Desktop\\vtme\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\9mice\\Desktop\\vtme\\api\\api.csproj",
+        "projectPath": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\api.csproj",
         "packagesPath": "C:\\Users\\9mice\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\9mice\\Desktop\\vtme\\api\\obj\\",
+        "outputPath": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\9mice\\AppData\\Roaming\\NuGet\\NuGet.Config",

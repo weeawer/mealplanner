@@ -1,15 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using api.Data;
 using api.Dtos.Day;
-using api.Dtos.Meal;
 using api.Interfaces;
 using api.Mappers;
-using api.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace api.Controllers
 {
@@ -19,11 +12,11 @@ namespace api.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IDayRepository _dayRepo;
-        public DayController(ApplicationDbContext context, IDayRepository dayRepo )
+        public DayController(ApplicationDbContext context, IDayRepository dayRepo)
         {
             _dayRepo = dayRepo;
             _context = context;
-        }
+    }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -31,7 +24,7 @@ namespace api.Controllers
             var days = await _dayRepo.GetAllAsync();//await _context.Days.ToListAsync();
             var DayDto = days.Select(s => s.ToDayDto()); // извлечь из БД то что было создано в ней
 
-                 return Ok(days);
+            return Ok(days);
 
         }
 
@@ -47,57 +40,53 @@ namespace api.Controllers
             }
 
             return Ok(day.ToDayDto());
-    }
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> Create([FromBody] CreateDayRequestDto dayDto)   //Frombody - передает в Json - фактической форме
-    {
-        var dayModel = dayDto.ToDayFromCreateDto();
-        await _dayRepo.CreateAsync(dayModel);    //await _context.Days.AddAsync(dayModel);
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateDayRequestDto dayDto)   //Frombody - передает в Json - фактической форме
+        {
+            var dayModel = dayDto.ToDayFromCreateDto();
+            await _dayRepo.CreateAsync(dayModel);    //await _context.Days.AddAsync(dayModel);
+                                                     //await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetById), new { id = dayModel.Id }, dayModel.ToDayDto());
+        }
+
+        [HttpPut]
+        [Route("{id}")]
+
+        public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateDayRequestDto updateDto)
+        {
+            var dayModel = await _dayRepo.UpdateAsync(id, updateDto);     //await _context.Days.FirstOrDefaultAsync(x => x.Id == id);
+            if (dayModel == null)
+            {
+                return NotFound();
+
+            }
+
+            //dayModel.DayDate = updateDto.DayDate;
+
+            // await _context.SaveChangesAsync();
+
+            return Ok(dayModel.ToDayDto());
+
+        }
+
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> Delete([FromRoute] int id)
+        {
+            var dayModel = await _dayRepo.DeleteAsync(id);   //_context.Days.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (dayModel == null)
+            {
+                return NotFound();
+            }
+
+            //_context.Days.Remove(dayModel);
+
             //await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetById), new { id = dayModel.Id}, dayModel.ToDayDto());
-    }
 
-
-
-
-
-    [HttpPut]
-    [Route("{id}")]
-    
-    public async Task<IActionResult> Update ([FromRoute] int id, [FromBody] UpdateDayRequestDto updateDto)
-    {
-        var dayModel = await _dayRepo.UpdateAsync(id, updateDto);     //await _context.Days.FirstOrDefaultAsync(x => x.Id == id);
-        if(dayModel == null)
-        {
-            return NotFound();
-
+            return NoContent();
         }
-
-        //dayModel.DayDate = updateDto.DayDate;
-
-       // await _context.SaveChangesAsync();
-
-        return Ok(dayModel.ToDayDto());
-
     }
-
-    [HttpDelete]
-    [Route("{id}")]
-    public async Task<IActionResult> Delete([FromRoute] int id)
-    {
-        var dayModel = await _dayRepo.DeleteAsync(id);   //_context.Days.FirstOrDefaultAsync(x => x.Id == id);
-
-        if (dayModel == null)
-        {
-            return NotFound();
-        }
-
-        //_context.Days.Remove(dayModel);
-
-        //await _context.SaveChangesAsync();
-
-        return NoContent();
-    }
-}
 }

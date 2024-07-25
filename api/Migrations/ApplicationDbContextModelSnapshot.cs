@@ -51,13 +51,13 @@ namespace api.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "4b09d3a5-93ed-4a7e-92a9-bae21f1e73b8",
+                            Id = "5fad84ce-a425-4040-a92f-8c3719179293",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "7f2bbdd2-b1de-4590-a31e-66700b558fa1",
+                            Id = "876b2e78-4e75-441f-bda2-d034b3d0fcbb",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -177,13 +177,6 @@ namespace api.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("AppUserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
@@ -241,35 +234,24 @@ namespace api.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("api.Models.Choise", b =>
+            modelBuilder.Entity("api.Models.ChoiseMeal", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("DayId")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AppUserId")
+                    b.Property<int>("MealId")
                         .HasColumnType("int");
 
-                    b.Property<string>("AppUserId1")
+                    b.Property<string>("AppUserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int?>("DayId")
-                        .HasColumnType("int");
+                    b.HasKey("DayId", "MealId", "AppUserId");
 
-                    b.Property<int?>("MealId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AppUserId1");
-
-                    b.HasIndex("DayId");
+                    b.HasIndex("AppUserId");
 
                     b.HasIndex("MealId");
 
-                    b.ToTable("Choises");
+                    b.ToTable("ChoiseMeals");
                 });
 
             modelBuilder.Entity("api.Models.Day", b =>
@@ -279,9 +261,6 @@ namespace api.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("DayDate")
-                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -304,6 +283,13 @@ namespace api.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Type")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -365,19 +351,25 @@ namespace api.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("api.Models.Choise", b =>
+            modelBuilder.Entity("api.Models.ChoiseMeal", b =>
                 {
                     b.HasOne("api.Models.AppUser", "AppUser")
-                        .WithMany("Choises")
-                        .HasForeignKey("AppUserId1");
+                        .WithMany("ChoiseMeals")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("api.Models.Day", "Day")
-                        .WithMany("Choises")
-                        .HasForeignKey("DayId");
+                        .WithMany("ChoiseMeals")
+                        .HasForeignKey("DayId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("api.Models.Meal", "Meal")
-                        .WithMany("Choises")
-                        .HasForeignKey("MealId");
+                        .WithMany("ChoiseMeals")
+                        .HasForeignKey("MealId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("AppUser");
 
@@ -397,19 +389,19 @@ namespace api.Migrations
 
             modelBuilder.Entity("api.Models.AppUser", b =>
                 {
-                    b.Navigation("Choises");
+                    b.Navigation("ChoiseMeals");
                 });
 
             modelBuilder.Entity("api.Models.Day", b =>
                 {
-                    b.Navigation("Choises");
+                    b.Navigation("ChoiseMeals");
 
                     b.Navigation("Meals");
                 });
 
             modelBuilder.Entity("api.Models.Meal", b =>
                 {
-                    b.Navigation("Choises");
+                    b.Navigation("ChoiseMeals");
                 });
 #pragma warning restore 612, 618
         }

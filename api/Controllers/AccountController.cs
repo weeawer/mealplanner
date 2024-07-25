@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using api.Dtos.Account;
 using api.Interfaces;
 using api.Models;
@@ -27,21 +23,22 @@ namespace api.Controllers
         }
 
         [HttpPost("login")]
-        public  async Task<IActionResult> Login(LoginDto loginDto)
+        public async Task<IActionResult> Login(LoginDto loginDto)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             var user = await _userManager.Users.FirstOrDefaultAsync(x => x.UserName == loginDto.Username.ToLower());
 
-            if(user == null) return Unauthorized("Неправильное имя пользователя!");
-                 
+            if (user == null) return Unauthorized("Неправильное имя пользователя!");
+
             var result = await _signinManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
 
-            if(!result.Succeeded) return Unauthorized("Имя пользователя не найдено или пароль введён неверно");
+            if (!result.Succeeded) return Unauthorized("Имя пользователя не найдено или пароль введён неверно");
             return Ok(
                 new NewUserDto
                 {
+                    Id = user.Id,
                     UserName = user.UserName,
                     Email = user.Email,
                     Token = _tokenService.CreateToken(user)
@@ -49,45 +46,46 @@ namespace api.Controllers
             );
         }
 
-
-
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
         {
-            try {
-                    if (!ModelState.IsValid)
+            try
+            {
+                if (!ModelState.IsValid)
                     return BadRequest(ModelState);
 
-                    var appUser = new AppUser
-                    {
-                        UserName = registerDto.AppUserName,
-                        Email = registerDto.Email
-                    };
-                    var createdUser = await _userManager.CreateAsync(appUser, registerDto.Password);
+                var appUser = new AppUser
+                {
+                    Id = registerDto.Id,
+                    UserName = registerDto.UserName,
+                    Email = registerDto.Email
+                };
+                var createdUser = await _userManager.CreateAsync(appUser, registerDto.Password);
 
-                    if(createdUser.Succeeded)
+                if (createdUser.Succeeded)
+                {
+                    var roleResult = await _userManager.AddToRoleAsync(appUser, "User");
+                    if (roleResult.Succeeded)
                     {
-                        var roleResult = await _userManager.AddToRoleAsync(appUser, "User");
-                        if(roleResult.Succeeded)
-                        {
-                            return Ok(
-                                new NewUserDto
-                                {
-                                    UserName = appUser.UserName,
-                                    Email = appUser.Email,
-                                    Token = _tokenService.CreateToken(appUser)
-                                }
-                            );
-                        }
-                        else 
-                        {
-                            return StatusCode(500, roleResult.Errors);
-                        }
+                        return Ok(
+                            new NewUserDto
+                            {
+                                Id = appUser.Id,
+                                UserName = appUser.UserName,
+                                Email = appUser.Email,
+                                Token = _tokenService.CreateToken(appUser)
+                            }
+                        );
                     }
-                    else 
+                    else
                     {
-                        return StatusCode(500, createdUser.Errors);
+                        return StatusCode(500, roleResult.Errors);
                     }
+                }
+                else
+                {
+                    return StatusCode(500, createdUser.Errors);
+                }
 
             }
             catch (Exception e)

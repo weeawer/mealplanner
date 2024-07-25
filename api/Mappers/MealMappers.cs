@@ -14,9 +14,12 @@ namespace api.Mappers
             return new MealDto
             {
                 Id = mealModel.Id,
+                Type = mealModel.Type,
                 Name = mealModel.Name, 
                 Description = mealModel.Description,
+                Price = mealModel.Price,
                 DayId = mealModel.DayId,
+                
                 
             };
         }
@@ -24,13 +27,11 @@ namespace api.Mappers
         {
             return new Meal
             {
-                
+                Type = mealDto.Type,               
                 Name = mealDto.Name, 
                 Description = mealDto.Description,
+                Price = mealDto.Price,
                 DayId = dayId,
-                
-                
-
             };
         }
       //  public static Meal ToMealDto(this CreateMealWithIdsDto mealIdDto, int dayId)

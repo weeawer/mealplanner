@@ -9,7 +9,9 @@ namespace api.Dtos.Account
     public class RegisterDto
     {
         [Required]
-        public string? AppUserName {get; set;}
+        public string? Id { get; set; }
+        [Required]
+        public string? UserName {get; set;}
         [Required]
         [EmailAddress]
         public string? Email {get; set;}

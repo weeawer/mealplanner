@@ -7,6 +7,6 @@ namespace api.Dtos.Day
 {
     public class UpdateDayRequestDto
     {
-        public DateTime DayDate {get; set;} = DateTime.Now; 
+        
     }
 }

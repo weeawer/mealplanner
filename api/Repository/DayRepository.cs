@@ -63,7 +63,7 @@ namespace api.Repository
             {
                 return null;
             }
-            existingDay.DayDate = dayDto.DayDate;
+            
 
             await _context.SaveChangesAsync();
             return existingDay;

@@ -14,7 +14,7 @@ namespace api.Mappers
             return new DayDto
             {
                     Id = dayModel.Id,
-                    DayDate = dayModel.DayDate,
+                    
                     Meals = dayModel.Meals.Select(c => c.ToMealDto()).ToList()
             };
         }
@@ -23,7 +23,7 @@ namespace api.Mappers
         {
             return new Day
             {
-                DayDate = dayDto.DayDate
+                
 
             };
         }

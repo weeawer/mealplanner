@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  mssqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: vtsqls
+    environment:
+      SA_PASSWORD: "YouSawSaw_88"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+
+  yourapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vibroapi
+    depends_on:
+      - mssqlserver
+    ports:
+      - "8085:5050"
+    environment:    
+      - ConnectionStrings__DefaultConnection=Server=vtsqls;Database=vtmeals;User=sa;Password=YouSawSaw_88;TrustServerCertificate=True;

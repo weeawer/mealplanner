@@ -76,6 +76,7 @@ public async Task AddMealToDayAsync(Meal mealModel)
             }
             existingMeal.Name = mealDto.Name;
             existingMeal.Description = mealDto.Description;
+            existingMeal.Price = mealDto.Price;
 
             await _context.SaveChangesAsync();
             return existingMeal;
