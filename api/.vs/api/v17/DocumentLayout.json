@@ -3,76 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725145443_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725145443_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144823_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725144823_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\interfaces\\imealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:interfaces\\imealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144610_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725144610_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144353_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725144353_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725143908_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725143908_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725143413_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725143413_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142624_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725142624_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142530_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725142530_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142325_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725142325_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142236_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725142236_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142223_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725142223_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725141817_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725141817_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725141056_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725141056_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725140355_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725140355_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725134914_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725134914_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\interfaces\\idayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:interfaces\\idayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\dtos\\meal\\updatemealrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,28 +39,88 @@
       "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:dtos\\meal\\createmealrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\mappers\\mealmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:mappers\\mealmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\controllers\\mealcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:controllers\\mealcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\controllers\\daycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:controllers\\daycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\controllers\\choisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:controllers\\choisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\repository\\bases\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:repository\\bases\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\repository\\bases\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:repository\\bases\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\repository\\abstracts\\choisemealsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:repository\\abstracts\\choisemealsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\repository\\bases\\mealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:repository\\bases\\mealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\repository\\bases\\dayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:repository\\bases\\dayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\models\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:models\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\repository\\mealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:repository\\mealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\mappers\\mealmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:mappers\\mealmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121902_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240724121902_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121754_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240724121754_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731185244_Addedd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240731185244_Addedd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121545_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240724121545_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731184018_Added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240731184018_Added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731123744_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240731123744_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\mappers\\categorymappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:mappers\\categorymappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|c:\\users\\9mice\\desktop\\vtme3\\vtme (3)\\vtme\\api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC9E442-53A8-44E5-9D6E-494C51799FCA}|api.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144353_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240725144353_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121415_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,71 +138,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20240725145443_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725145443_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725145443_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725145443_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725145443_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:54:43.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240725144823_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144823_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725144823_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144823_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725144823_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:48:24.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240725144610_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144610_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725144610_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144610_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725144610_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:46:10.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240725144353_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144353_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725144353_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144353_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725144353_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:43:53.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240725143908_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725143908_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725143908_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725143908_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725143908_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:39:08.179Z",
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-08-02T08:48:45.645Z",
               "EditorCaption": ""
             },
             {
@@ -201,233 +161,53 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-24T09:02:06.003Z",
+              "WhenOpened": "2024-08-02T08:47:19.32Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-07-24T08:11:39.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-24T08:44:22.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20240725142223_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142223_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725142223_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142223_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725142223_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:22:23.63Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "20240725142236_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142236_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725142236_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142236_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725142236_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "DayController.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\DayController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DayController.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\DayController.cs",
+              "RelativeToolTip": "Controllers\\DayController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwEcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:22:37.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240725142325_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142325_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725142325_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142325_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725142325_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:23:25.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20240725142530_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142530_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725142530_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142530_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725142530_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:25:31.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240725143413_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725143413_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725143413_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725143413_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725143413_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:34:13.943Z",
+              "WhenOpened": "2024-08-01T14:45:52.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240725142624_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142624_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725142624_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725142624_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725142624_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:26:24.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240725141817_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725141817_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725141817_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725141817_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725141817_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:18:18.039Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "20240725141056_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725141056_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725141056_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725141056_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725141056_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAD4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:10:56.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20240724121545_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121545_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240724121545_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121545_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240724121545_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T12:15:45.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20240724121754_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121754_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240724121754_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121754_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240724121754_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T12:17:54.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MealRepository.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\MealRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\MealRepository.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\MealRepository.cs",
-              "RelativeToolTip": "Repository\\MealRepository.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAswE4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:41:28.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Meal.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\Meal.cs",
-              "RelativeDocumentMoniker": "Models\\Meal.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\Meal.cs",
-              "RelativeToolTip": "Models\\Meal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:42:20.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20240725134914_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725134914_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725134914_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725134914_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725134914_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:49:14.802Z"
+              "WhenOpened": "2024-08-01T14:41:50.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "20240725140355_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725140355_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240725140355_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725140355_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240725140355_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AppUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\AppUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Bases\\AppUserRepository.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\AppUserRepository.cs",
+              "RelativeToolTip": "Repository\\Bases\\AppUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:03:56.113Z"
+              "WhenOpened": "2024-08-01T09:30:32.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MealMappers.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Mappers\\MealMappers.cs",
-              "RelativeDocumentMoniker": "Mappers\\MealMappers.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Mappers\\MealMappers.cs",
-              "RelativeToolTip": "Mappers\\MealMappers.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:45:07.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateMealRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Meal\\CreateMealRequestDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Meal\\CreateMealRequestDto.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Meal\\CreateMealRequestDto.cs",
-              "RelativeToolTip": "Dtos\\Meal\\CreateMealRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:46:09.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
               "Title": "MealDto.cs",
               "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Meal\\MealDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Meal\\MealDto.cs",
@@ -435,11 +215,129 @@
               "RelativeToolTip": "Dtos\\Meal\\MealDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:46:22.647Z"
+              "WhenOpened": "2024-07-31T18:33:21.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
+              "Title": "MealController.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\MealController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MealController.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\MealController.cs",
+              "RelativeToolTip": "Controllers\\MealController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:28:36.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Category\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Category\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Category\\CategoryDto.cs",
+              "RelativeToolTip": "Dtos\\Category\\CategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:02:56.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:18:18.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:20:02.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T12:36:28.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:53:10.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Interfaces\\IDayRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDayRepository.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Interfaces\\IDayRepository.cs",
+              "RelativeToolTip": "Interfaces\\IDayRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:54:39.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMealRepository.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Interfaces\\IMealRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMealRepository.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Interfaces\\IMealRepository.cs",
+              "RelativeToolTip": "Interfaces\\IMealRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:54:47.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateMealRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Meal\\CreateMealRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Meal\\CreateMealRequestDto.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Meal\\CreateMealRequestDto.cs",
+              "RelativeToolTip": "Dtos\\Meal\\CreateMealRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T13:46:09.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UpdateMealRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Dtos\\Meal\\UpdateMealRequestDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Meal\\UpdateMealRequestDto.cs",
@@ -447,23 +345,193 @@
               "RelativeToolTip": "Dtos\\Meal\\UpdateMealRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:46:36.191Z"
+              "WhenOpened": "2024-07-25T13:46:36.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Meal.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\Meal.cs",
+              "RelativeDocumentMoniker": "Models\\Meal.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\Meal.cs",
+              "RelativeToolTip": "Models\\Meal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:29:19.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\DayRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Bases\\DayRepository.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\DayRepository.cs",
+              "RelativeToolTip": "Repository\\Bases\\DayRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:29:29.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MealRepository.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\MealRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Bases\\MealRepository.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\MealRepository.cs",
+              "RelativeToolTip": "Repository\\Bases\\MealRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:29:53.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChoiseController.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\ChoiseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChoiseController.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Controllers\\ChoiseController.cs",
+              "RelativeToolTip": "Controllers\\ChoiseController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T22:13:11.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChoiseMealsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Abstracts\\ChoiseMealsRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Abstracts\\ChoiseMealsRepository.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Abstracts\\ChoiseMealsRepository.cs",
+              "RelativeToolTip": "Repository\\Abstracts\\ChoiseMealsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:30:20.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Bases\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Repository\\Bases\\CategoryRepository.cs",
+              "RelativeToolTip": "Repository\\Bases\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:09:12.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240731184018_Added.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731184018_Added.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240731184018_Added.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731184018_Added.cs",
+              "RelativeToolTip": "Migrations\\20240731184018_Added.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:40:18.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MealMappers.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Mappers\\MealMappers.cs",
+              "RelativeDocumentMoniker": "Mappers\\MealMappers.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Mappers\\MealMappers.cs",
+              "RelativeToolTip": "Mappers\\MealMappers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:31:28.813Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "20240724121902_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121902_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240724121902_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121902_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240724121902_InitialCreate.cs",
+              "Title": "20240731185244_Addedd.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731185244_Addedd.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240731185244_Addedd.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731185244_Addedd.cs",
+              "RelativeToolTip": "Migrations\\20240731185244_Addedd.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T12:19:02.315Z"
+              "WhenOpened": "2024-07-31T18:52:45.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:31:03.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "CategoryMappers.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Mappers\\CategoryMappers.cs",
+              "RelativeDocumentMoniker": "Mappers\\CategoryMappers.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Mappers\\CategoryMappers.cs",
+              "RelativeToolTip": "Mappers\\CategoryMappers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:14:26.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:29:19.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240731123744_Created.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731123744_Created.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240731123744_Created.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240731123744_Created.cs",
+              "RelativeToolTip": "Migrations\\20240731123744_Created.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:37:44.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240725144353_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144353_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240725144353_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240725144353_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240725144353_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:43:53.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "20240724121415_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121415_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20240724121415_InitialCreate.cs",
@@ -475,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "20240724121305_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\9mice\\Desktop\\vtme3\\vtme (3)\\vtme\\api\\Migrations\\20240724121305_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20240724121305_InitialCreate.cs",

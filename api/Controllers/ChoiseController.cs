@@ -23,7 +23,6 @@ namespace api.Controllers
             {
                 var user = await _appUserRepository.GetByIdAsync(dayMealsDto.AppUserId);
                 var day = await _dayRepository.GetByIdAsync(dayMealsDto.DayId);
-
                 if (user is null)
                     return NotFound($"Choice not found for UserId {dayMealsDto.AppUserId}");
                 if (day is null)
@@ -44,11 +43,8 @@ namespace api.Controllers
                     }
                 }
             }
-
             return Ok("Meals added successfully");
         }
-
-
     }
 }
 

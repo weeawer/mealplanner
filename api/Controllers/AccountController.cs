@@ -19,7 +19,6 @@ namespace api.Controllers
             _userManager = userManager;
             _tokenService = tokenService;
             _signinManager = signInManager;
-
         }
 
         [HttpPost("login")]
@@ -27,13 +26,9 @@ namespace api.Controllers
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-
             var user = await _userManager.Users.FirstOrDefaultAsync(x => x.UserName == loginDto.Username.ToLower());
-
             if (user == null) return Unauthorized("Неправильное имя пользователя!");
-
             var result = await _signinManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
-
             if (!result.Succeeded) return Unauthorized("Имя пользователя не найдено или пароль введён неверно");
             return Ok(
                 new NewUserDto
@@ -53,7 +48,6 @@ namespace api.Controllers
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
-
                 var appUser = new AppUser
                 {
                     Id = registerDto.Id,
@@ -61,7 +55,6 @@ namespace api.Controllers
                     Email = registerDto.Email
                 };
                 var createdUser = await _userManager.CreateAsync(appUser, registerDto.Password);
-
                 if (createdUser.Succeeded)
                 {
                     var roleResult = await _userManager.AddToRoleAsync(appUser, "User");

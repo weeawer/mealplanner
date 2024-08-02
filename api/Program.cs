@@ -1,7 +1,8 @@
 using api.Data;
 using api.Interfaces;
 using api.Models;
-using api.Repository;
+using api.Repository.Abstracts;
+using api.Repository.Bases;
 using api.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -105,6 +106,8 @@ builder.Services.AddScoped<IMealRepository, MealRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IChoiseMealsRepository, ChoiseMealsRepository>(); 
 builder.Services.AddScoped<IAppUserRepository, AppUserRepository>(); 
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 
 var app = builder.Build();
 

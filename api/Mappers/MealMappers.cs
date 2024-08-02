@@ -14,7 +14,7 @@ namespace api.Mappers
             return new MealDto
             {
                 Id = mealModel.Id,
-                Type = mealModel.Type,
+                CategoryId = mealModel.CategoryId,
                 Name = mealModel.Name, 
                 Description = mealModel.Description,
                 Price = mealModel.Price,
@@ -27,7 +27,7 @@ namespace api.Mappers
         {
             return new Meal
             {
-                Type = mealDto.Type,               
+                
                 Name = mealDto.Name, 
                 Description = mealDto.Description,
                 Price = mealDto.Price,

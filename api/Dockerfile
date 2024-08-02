@@ -3,14 +3,13 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
 # Копирование csproj и восстановление зависимостей
-
 COPY *.csproj ./
 RUN dotnet tool install --global dotnet-ef
 RUN dotnet restore
 
 # Копирование остального кода и сборка
 COPY . ./
-RUN dotnet publish -c Release -o out
+RUN dotnet publish -c Debug -o out
 
 # Использование базового образа .NET Runtime для выполнения
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
@@ -22,5 +21,4 @@ EXPOSE 5050
 
 # Указание команды запуска
 ENTRYPOINT ["dotnet", "api.dll"]
-
 

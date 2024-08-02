@@ -7,15 +7,15 @@ using api.Interfaces;
 using api.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace api.Repository
+namespace api.Repository.Bases
 {
     public class AppUserRepository : IAppUserRepository
     {
         private readonly ApplicationDbContext _context;
         public AppUserRepository(ApplicationDbContext context)
-            {
-                _context = context;
-            }
+        {
+            _context = context;
+        }
 
         public async Task<AppUser?> GetByIdAsync(string id)
         {

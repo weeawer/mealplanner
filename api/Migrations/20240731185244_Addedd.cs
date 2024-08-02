@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace api.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Addedd : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -50,6 +50,19 @@ namespace api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Categories",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categories", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -176,7 +189,7 @@ namespace api.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CategoryId = table.Column<int>(type: "int", nullable: true),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<int>(type: "int", nullable: false),
@@ -185,6 +198,11 @@ namespace api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Meals", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Meals_Categories_CategoryId",
+                        column: x => x.CategoryId,
+                        principalTable: "Categories",
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Meals_Days_DayId",
                         column: x => x.DayId,
@@ -228,8 +246,8 @@ namespace api.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "5fad84ce-a425-4040-a92f-8c3719179293", null, "Admin", "ADMIN" },
-                    { "876b2e78-4e75-441f-bda2-d034b3d0fcbb", null, "User", "USER" }
+                    { "2ef09514-565e-4a91-9a4a-07832a53f7de", null, "User", "USER" },
+                    { "5ab294ed-dd1e-42b9-ad1d-df362ec00446", null, "Admin", "ADMIN" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -282,6 +300,11 @@ namespace api.Migrations
                 column: "MealId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Meals_CategoryId",
+                table: "Meals",
+                column: "CategoryId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Meals_DayId",
                 table: "Meals",
                 column: "DayId");
@@ -316,6 +339,9 @@ namespace api.Migrations
 
             migrationBuilder.DropTable(
                 name: "Meals");
+
+            migrationBuilder.DropTable(
+                name: "Categories");
 
             migrationBuilder.DropTable(
                 name: "Days");

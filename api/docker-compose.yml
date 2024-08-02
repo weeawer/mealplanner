@@ -9,6 +9,9 @@ services:
       ACCEPT_EULA: "Y"
     ports:
       - "1433:1433"
+    restart: always
+    networks:
+      - vtnetwork
 
   yourapi:
     build:
@@ -18,6 +21,12 @@ services:
     depends_on:
       - mssqlserver
     ports:
-      - "8085:5050"
+      - "5050:5050"
     environment:    
       - ConnectionStrings__DefaultConnection=Server=vtsqls;Database=vtmeals;User=sa;Password=YouSawSaw_88;TrustServerCertificate=True;
+    restart: always
+    networks:
+      - vtnetwork
+
+networks:
+  vtnetwork:

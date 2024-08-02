@@ -2,7 +2,7 @@
 using api.Interfaces;
 using api.Models;
 
-namespace api.Repository
+namespace api.Repository.Abstracts
 {
     public class ChoiseMealsRepository(ApplicationDbContext context) : IChoiseMealsRepository
     {

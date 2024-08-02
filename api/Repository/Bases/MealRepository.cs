@@ -8,23 +8,23 @@ using api.Interfaces;
 using api.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace api.Repository
+namespace api.Repository.Bases
 {
     public class MealRepository : IMealRepository
     {
         private readonly ApplicationDbContext _context;
         public MealRepository(ApplicationDbContext context)
-            {
-                _context = context;
-            }
+        {
+            _context = context;
+        }
 
-          
+
 
         public async Task<Meal> CreateAsync(Meal mealModel)
         {
             await _context.Meals.AddAsync(mealModel);
             await _context.SaveChangesAsync();
-            return mealModel;    
+            return mealModel;
         }
 
         public Task CreateAsync(object mealModel)
@@ -32,16 +32,16 @@ namespace api.Repository
             throw new NotImplementedException();
         }
 
-     public async Task<bool> MealExists(int mealId)
-{
-    return await _context.Meals.AnyAsync(m => m.Id == mealId);
-}
+        public async Task<bool> MealExists(int mealId)
+        {
+            return await _context.Meals.AnyAsync(m => m.Id == mealId);
+        }
 
-public async Task AddMealToDayAsync(Meal mealModel)
-{
-    _context.Meals.Add(mealModel);
-    await _context.SaveChangesAsync();
-}
+        public async Task AddMealToDayAsync(Meal mealModel)
+        {
+            _context.Meals.Add(mealModel);
+            await _context.SaveChangesAsync();
+        }
 
 
         public async Task<Meal?> DeleteAsync(int id)
@@ -69,8 +69,8 @@ public async Task AddMealToDayAsync(Meal mealModel)
 
         public async Task<Meal?> UpdateAsync(int id, UpdateMealRequestDto mealDto)
         {
-            var existingMeal = await _context.Meals.FirstOrDefaultAsync(x=> x.Id == id);
-            if(existingMeal == null )
+            var existingMeal = await _context.Meals.FirstOrDefaultAsync(x => x.Id == id);
+            if (existingMeal == null)
             {
                 return null;
             }

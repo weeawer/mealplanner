@@ -12,8 +12,8 @@ using api.Data;
 namespace api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240725145443_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240731185244_Addedd")]
+    partial class Addedd
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,13 +54,13 @@ namespace api.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5fad84ce-a425-4040-a92f-8c3719179293",
+                            Id = "5ab294ed-dd1e-42b9-ad1d-df362ec00446",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "876b2e78-4e75-441f-bda2-d034b3d0fcbb",
+                            Id = "2ef09514-565e-4a91-9a4a-07832a53f7de",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -237,6 +237,23 @@ namespace api.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("api.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("api.Models.ChoiseMeal", b =>
                 {
                     b.Property<int>("DayId")
@@ -278,6 +295,9 @@ namespace api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("DayId")
                         .HasColumnType("int");
 
@@ -292,11 +312,9 @@ namespace api.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.HasIndex("DayId");
 
@@ -383,9 +401,15 @@ namespace api.Migrations
 
             modelBuilder.Entity("api.Models.Meal", b =>
                 {
+                    b.HasOne("api.Models.Category", "Category")
+                        .WithMany("Meals")
+                        .HasForeignKey("CategoryId");
+
                     b.HasOne("api.Models.Day", "Day")
                         .WithMany("Meals")
                         .HasForeignKey("DayId");
+
+                    b.Navigation("Category");
 
                     b.Navigation("Day");
                 });
@@ -393,6 +417,11 @@ namespace api.Migrations
             modelBuilder.Entity("api.Models.AppUser", b =>
                 {
                     b.Navigation("ChoiseMeals");
+                });
+
+            modelBuilder.Entity("api.Models.Category", b =>
+                {
+                    b.Navigation("Meals");
                 });
 
             modelBuilder.Entity("api.Models.Day", b =>
