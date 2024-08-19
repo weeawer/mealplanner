@@ -1,0 +1,97 @@
+@import url("./_reset.sass")
+
+@font-face
+    font-family: 'Inter'
+    src: url('src/assets/fonts/Inter.ttf')
+
+:root
+    font-family: 'Inter'
+    box-sizing: border-box
+
+*
+    box-sizing: inherit
+
+body
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 98vh
+    width: 100%
+
+    padding: 4rem
+
+.main
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    border: 1px solid black
+    border-radius: 1rem
+
+.title-1
+    font-size: 2.5rem
+    font-weight: bold
+
+.title-2
+    font-size: 1.5rem
+    font-weight: 500
+
+.title-3
+    font-size: 1.25rem
+    font-weight: 500
+
+.title-4
+    font-size: 1.25rem
+    font-weight: 600
+
+.input-1
+    outline: none
+    border: 1px gray solid
+    border-radius: .5rem
+
+    padding: 1rem 1.5rem
+    font-size: 1rem
+
+.btn-1
+    border: none
+    border-radius: .5rem
+    padding: 1rem 1.5rem
+
+    cursor: pointer
+    background-color: black
+
+    color: white
+    font-weight: bold
+    font-size: 1rem
+
+    transition-duration: 200ms
+
+.btn-1-a
+    border: none
+    border-radius: .5em
+    padding: 1em 1.5em
+
+    cursor: pointer
+    background-color: black
+
+    color: white
+    font-weight: bold
+    font-size: 1em
+
+    transition-duration: 200ms
+
+.btn-1:hover
+    opacity: 80%
+
+.btn-1:active
+    opacity: 50%
+
+@media screen and (max-width: 800px)
+    body
+        padding: 0
+    .main
+        border: none
+
+    #root
+        width: 100%

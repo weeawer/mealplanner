@@ -15,6 +15,6 @@ namespace api.Models
         public Day? Day { get; set; }
         
 
-        public List<ChoiseMeal> ChoiseMeals { get; set; } = [];// не показываем но храним
+        public List<ChoiseMealsSwap> ChoiseMeals { get; set; } = [];// не показываем но храним
     }
 }

@@ -23,6 +23,8 @@ builder.Services.AddCors();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHostedService<UpdateDaysService>();
+
 
 
 
@@ -107,6 +109,8 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IChoiseMealsRepository, ChoiseMealsRepository>(); 
 builder.Services.AddScoped<IAppUserRepository, AppUserRepository>(); 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddHostedService<UpdateMealsService>();
+builder.Services.AddScoped<IChoiseMealsSwapRepository, ChoiseMealsSwapRepository>();
 
 
 var app = builder.Build();
@@ -123,7 +127,7 @@ var app = builder.Build();
 
 
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseCors(x => x
                 .AllowAnyMethod()
                 .AllowAnyHeader()

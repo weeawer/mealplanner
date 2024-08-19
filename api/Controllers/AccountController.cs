@@ -35,6 +35,8 @@ namespace api.Controllers
                 {
                     Id = user.Id,
                     UserName = user.UserName,
+                    Shift = user.Shift,
+                    EmpType = user.EmpType,
                     Email = user.Email,
                     Token = _tokenService.CreateToken(user)
                 }
@@ -52,7 +54,9 @@ namespace api.Controllers
                 {
                     Id = registerDto.Id,
                     UserName = registerDto.UserName,
-                    Email = registerDto.Email
+                    Email = registerDto.Email,
+                    Shift = registerDto.Shift,
+                    EmpType = registerDto.EmpType
                 };
                 var createdUser = await _userManager.CreateAsync(appUser, registerDto.Password);
                 if (createdUser.Succeeded)
@@ -66,6 +70,8 @@ namespace api.Controllers
                                 Id = appUser.Id,
                                 UserName = appUser.UserName,
                                 Email = appUser.Email,
+                                Shift = registerDto.Shift,
+                                EmpType = registerDto.EmpType,
                                 Token = _tokenService.CreateToken(appUser)
                             }
                         );

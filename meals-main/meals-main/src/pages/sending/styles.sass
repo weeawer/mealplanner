@@ -1,0 +1,21 @@
+.sending-page
+    display: flex
+    flex-direction: column
+    gap: 5rem
+    padding: 3rem 5rem
+
+    & .title-1
+        text-align: center
+    &__animation
+        width: 5rem
+        animation: spin-around linear 1.5s infinite
+
+    &__success
+        width: 10rem
+
+@keyframes spin-around
+    0%
+        transform: rotate(0deg)
+
+    100%
+        transform: rotate(360deg)

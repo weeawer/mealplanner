@@ -1,9 +1,9 @@
-version: '3.4'
+version: '3.8'
 
 services:
   mssqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: vtsqls
+    container_name: vtmsrv
     environment:
       SA_PASSWORD: "YouSawSaw_88"
       ACCEPT_EULA: "Y"
@@ -13,20 +13,47 @@ services:
     networks:
       - vtnetwork
 
-  yourapi:
+  backend:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: vibroapi
-    depends_on:
-      - mssqlserver
+    container_name: api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=vtmsrv;Database=vtmeals;User=sa;Password=YouSawSaw_88;TrustServerCertificate=True;
     ports:
       - "5050:5050"
-    environment:    
-      - ConnectionStrings__DefaultConnection=Server=vtsqls;Database=vtmeals;User=sa;Password=YouSawSaw_88;TrustServerCertificate=True;
+    depends_on:
+      - mssqlserver
     restart: always
     networks:
       - vtnetwork
 
+  frontend:
+    build: ./meals-main
+    container_name: front
+    ports:
+      - "8888:8888"
+    depends_on:
+      - vibroapi
+    restart: always
+    networks:
+      - vtnetwork
+
+
+
 networks:
   vtnetwork:
+    driver: bridge
+
+
+
+
+
+
+
+
+
+
+
+

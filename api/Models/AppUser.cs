@@ -9,7 +9,9 @@ namespace api.Models
     public class AppUser: IdentityUser
     {
         public string Id {get; set;}
-        public List<ChoiseMeal> ChoiseMeals { get; set; } = new List<ChoiseMeal>();
+        public int Shift {get; set;}
+        public int EmpType {get; set;}
+        public List<ChoiseMealsSwap> ChoiseMeals { get; set; } = new List<ChoiseMealsSwap>();
 
     }
 }

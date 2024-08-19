@@ -4,7 +4,6 @@ WORKDIR /app
 
 # Копирование csproj и восстановление зависимостей
 COPY *.csproj ./
-RUN dotnet tool install --global dotnet-ef
 RUN dotnet restore
 
 # Копирование остального кода и сборка
@@ -17,8 +16,7 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # Открытие порта
-EXPOSE 5050
+EXPOSE 5050 1433 8888
 
 # Указание команды запуска
 ENTRYPOINT ["dotnet", "api.dll"]
-

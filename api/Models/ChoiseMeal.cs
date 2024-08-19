@@ -1,4 +1,7 @@
-﻿namespace api.Models
+﻿using api.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace api.Models
 {
     public class ChoiseMeal
     {
@@ -9,4 +12,5 @@
         public int MealId { get; set; }
         public Meal Meal { get; set; }      
     }
+   
 }

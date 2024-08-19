@@ -11,7 +11,11 @@ namespace api.Dtos.Account
         [Required]
         public string? Id { get; set; }
         [Required]
-        public string? UserName {get; set;}
+        public string? UserName { get; set; }
+        [Required]
+        public int Shift { get; set; } 
+        [Required]
+        public int EmpType { get; set;}
         [Required]
         [EmailAddress]
         public string? Email {get; set;}

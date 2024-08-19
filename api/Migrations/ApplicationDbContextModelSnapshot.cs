@@ -51,13 +51,13 @@ namespace api.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5ab294ed-dd1e-42b9-ad1d-df362ec00446",
+                            Id = "4a832299-a508-475f-a868-f2baa558aafd",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "2ef09514-565e-4a91-9a4a-07832a53f7de",
+                            Id = "ef09db5d-46bb-4af4-a6fd-36d045a1c3b5",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -188,6 +188,9 @@ namespace api.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<int>("EmpType")
+                        .HasColumnType("int");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -213,6 +216,9 @@ namespace api.Migrations
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Shift")
+                        .HasColumnType("int");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -253,6 +259,26 @@ namespace api.Migrations
 
             modelBuilder.Entity("api.Models.ChoiseMeal", b =>
                 {
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("DayId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MealId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AppUserId", "DayId", "MealId");
+
+                    b.HasIndex("DayId");
+
+                    b.HasIndex("MealId");
+
+                    b.ToTable("ChoiseMeals");
+                });
+
+            modelBuilder.Entity("api.Models.ChoiseMealsSwap", b =>
+                {
                     b.Property<int>("DayId")
                         .HasColumnType("int");
 
@@ -268,7 +294,7 @@ namespace api.Migrations
 
                     b.HasIndex("MealId");
 
-                    b.ToTable("ChoiseMeals");
+                    b.ToTable("ChoiseMealsSwaps");
                 });
 
             modelBuilder.Entity("api.Models.Day", b =>
@@ -278,6 +304,9 @@ namespace api.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -370,6 +399,33 @@ namespace api.Migrations
                 });
 
             modelBuilder.Entity("api.Models.ChoiseMeal", b =>
+                {
+                    b.HasOne("api.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("api.Models.Day", "Day")
+                        .WithMany()
+                        .HasForeignKey("DayId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("api.Models.Meal", "Meal")
+                        .WithMany()
+                        .HasForeignKey("MealId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Day");
+
+                    b.Navigation("Meal");
+                });
+
+            modelBuilder.Entity("api.Models.ChoiseMealsSwap", b =>
                 {
                     b.HasOne("api.Models.AppUser", "AppUser")
                         .WithMany("ChoiseMeals")
